@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input {
+  font-size: calc(10px + 2vmin);
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+}
+
+input[type=button] {
+  margin: 10px;
+  border-radius: 6px;
+  background-color: white;
+  border: 3px solid #ccc;
+}
+
+input[type=button]:hover {
+  background-color: #e5e5e5;
+}
